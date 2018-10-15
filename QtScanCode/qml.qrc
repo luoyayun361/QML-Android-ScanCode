@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ScanPage.qml</file>
+        <file>CameraMask.qml</file>
+        <file>skin/bg_scan_line.png</file>
+        <file>skin/icon_back.png</file>
+        <file>skin/icon_back@2x.png</file>
+    </qresource>
+</RCC>
