@@ -41,10 +41,10 @@ Canvas {
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
         horizontalAlignment: Qt.AlignHCenter
-        font.pixelSize: fontSizeSmall
+        font.pixelSize: 25
         color: "white"
         anchors.top: parent.top
-        anchors.topMargin: mask.height/2. + scanWidth/2. + dpH(15)
+        anchors.topMargin: mask.height/2. + scanWidth/2. + 15
         text: qsTr("Please put the QR code in the box")
     }
 

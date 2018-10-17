@@ -8,6 +8,20 @@ Window {
     height: 640
     title: qsTr("ScanCode")
 
+    Shortcut{
+        sequences: ["Esc","Back"]
+        onActivated: {
+            console.log("--->>Shortcur<<---")
+            if(stackview.depth > 1){
+                stackview.pop()
+            }
+            else{
+                Qt.quit()
+            }
+
+        }
+    }
+
     StackView{
         id:stackview
         anchors.fill: parent
