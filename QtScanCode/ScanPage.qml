@@ -43,24 +43,6 @@ Page{
         text: "Detected count: " + detectedTags
     }
 
-    ToolButton{
-        id:back
-        icon.source:"qrc:/skin/icon_back.png"
-        icon.width: 14
-        icon.height: 25
-        display: AbstractButton.TextBesideIcon
-
-        Material.foreground: "white"
-        font.pixelSize: 20
-        z:5
-
-        onClicked: {
-            console.log("mask back btn clicked ..")
-            stackview.pop()
-        }
-    }
-
-
     Camera
     {
         id:camera
