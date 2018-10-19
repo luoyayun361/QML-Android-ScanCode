@@ -41,7 +41,6 @@ Canvas {
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
         horizontalAlignment: Qt.AlignHCenter
-        font.pixelSize: 25
         color: "white"
         anchors.top: parent.top
         anchors.topMargin: mask.height/2. + scanWidth/2. + 15

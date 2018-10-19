@@ -10,28 +10,6 @@ Page{
 
     property int detectedTags: 0
     property string content: ""
-    property string lastContent: ""
-
-
-    onVisibleChanged: {
-        if(!visible){
-            content = ""
-            lastContent = ""
-        }
-    }
-
-    background: Rectangle{
-        anchors.fill: parent
-        color: "black"
-    }
-    //检测到内容
-    onContentChanged: {
-        console.log("content = ",content)
-        if(content !== "" && content !== lastContent){
-            lastContent = content
-        }
-    }
-
 
     Label
     {
