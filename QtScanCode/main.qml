@@ -22,6 +22,7 @@ Window {
         }
     }
 
+
     StackView{
         id:stackview
         anchors.fill: parent
