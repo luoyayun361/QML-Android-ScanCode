@@ -7,3 +7,8 @@ QML for Android 实现二维码扫描功能（QML+QZXing）
 ![效果图](https://github.com/luoyayun361/QML-Android-ScanCode/blob/master/pic/1.jpg)
 ![效果图](https://github.com/luoyayun361/QML-Android-ScanCode/blob/master/pic/2.jpg)
 ![效果图](https://github.com/luoyayun361/QML-Android-ScanCode/blob/master/pic/3.jpg)
+
+# 最后
+
+关于项目的简单介绍在这里：https://blog.csdn.net/luoyayun361/article/details/80304874
+欢迎大家提出指正意见。
